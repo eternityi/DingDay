@@ -15,6 +15,11 @@
 		264BBC1F21377DD800260B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264BBC1D21377DD800260B3F /* LaunchScreen.storyboard */; };
 		264BBC2A21377DD800260B3F /* DingDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC2921377DD800260B3F /* DingDayTests.swift */; };
 		264BBC3521377DD800260B3F /* DingDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC3421377DD800260B3F /* DingDayUITests.swift */; };
+		264BBC44213782F400260B3F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC43213782F400260B3F /* User.swift */; };
+		264BBC46213783D000260B3F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC45213783D000260B3F /* UserService.swift */; };
+		264BBC48213784D700260B3F /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC47213784D700260B3F /* UserPresenter.swift */; };
+		264BBC4A2137886200260B3F /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC492137886200260B3F /* UserViewController.swift */; };
+		264BBC4C21378A2800260B3F /* TableTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BBC4B21378A2800260B3F /* TableTestTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		264BBC3021377DD800260B3F /* DingDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DingDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		264BBC3421377DD800260B3F /* DingDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingDayUITests.swift; sourceTree = "<group>"; };
 		264BBC3621377DD800260B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264BBC43213782F400260B3F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		264BBC45213783D000260B3F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		264BBC47213784D700260B3F /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		264BBC492137886200260B3F /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		264BBC4B21378A2800260B3F /* TableTestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTestTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +109,10 @@
 		264BBC1021377DD600260B3F /* DingDay */ = {
 			isa = PBXGroup;
 			children = (
+				264BBC42213782CA00260B3F /* User */,
 				264BBC1121377DD600260B3F /* AppDelegate.swift */,
 				264BBC1321377DD600260B3F /* ViewController.swift */,
+				264BBC4B21378A2800260B3F /* TableTestTableViewController.swift */,
 				264BBC1521377DD600260B3F /* Main.storyboard */,
 				264BBC1B21377DD800260B3F /* Assets.xcassets */,
 				264BBC1D21377DD800260B3F /* LaunchScreen.storyboard */,
@@ -126,6 +138,17 @@
 				264BBC3621377DD800260B3F /* Info.plist */,
 			);
 			path = DingDayUITests;
+			sourceTree = "<group>";
+		};
+		264BBC42213782CA00260B3F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				264BBC43213782F400260B3F /* User.swift */,
+				264BBC45213783D000260B3F /* UserService.swift */,
+				264BBC47213784D700260B3F /* UserPresenter.swift */,
+				264BBC492137886200260B3F /* UserViewController.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264BBC4A2137886200260B3F /* UserViewController.swift in Sources */,
+				264BBC44213782F400260B3F /* User.swift in Sources */,
 				264BBC1421377DD600260B3F /* ViewController.swift in Sources */,
+				264BBC46213783D000260B3F /* UserService.swift in Sources */,
+				264BBC4C21378A2800260B3F /* TableTestTableViewController.swift in Sources */,
+				264BBC48213784D700260B3F /* UserPresenter.swift in Sources */,
 				264BBC1221377DD600260B3F /* AppDelegate.swift in Sources */,
 				264BBC1A21377DD600260B3F /* DingDay.xcdatamodeld in Sources */,
 			);
